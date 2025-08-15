@@ -13,7 +13,6 @@ poppler_dep = dependency('poppler-cpp', version: '>=0.26.0')
 python_mod = import('python')
 python3 = python_mod.find_installation('python3', pure: false)
 
-pybind11_proj = subproject('pybind11')
-pybind11_dep = pybind11_proj.get_variable('pybind11_dep')
+pybind11_dep = dependency('pybind11', version: '==2.9.0', required: true)
 
 subdir('src')
