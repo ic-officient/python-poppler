@@ -1,7 +1,7 @@
 project(
     'python-poppler', 
     'cpp', 
-    version: '0.4.1-ic', 
+    version: '0.4.2', 
     license: 'GNU General Public License v2 (GPLv2)', 
     license_files: 'LICENSE.txt',
     meson_version: '>=1.1.0',
